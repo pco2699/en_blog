@@ -13,12 +13,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: yarn
+    - run: npm install
     - run: |
         git config --global user.email "aenkun@gmail.com"
         git config --global user.name "pco2699"
 
-    - run: yarn deploy
+    - run: npm run deploy
       env:
         PA_TOKEN: ${{ secrets.PA_TOKEN }}
         CI: true
