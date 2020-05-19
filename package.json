@@ -57,6 +57,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master -r \"https://pco2699:$PA_TOKEN@github.com/pco2699/pco2699.github.io.git\""
   }
 }
